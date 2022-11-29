@@ -25,6 +25,7 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
+  z-index: 10;
 }
 .main-nav {
   margin: 0 150px;
@@ -73,6 +74,9 @@ main {
   min-height: 100vh;
   padding: 0 300px;
 }
+
+/* hero page*/
+
 .hero {
   min-height: 100vh;
   display: flex;
@@ -85,6 +89,22 @@ main {
   position: relative;
 }
 
+/* *text svg */
+.diag {
+  position: absolute;
+  left: 50%;
+
+  top: 8.22%;
+}
+
+.squiggle {
+  position: absolute;
+  left: 49.9%;
+  right: 34.34%;
+  top: 70%;
+  bottom: 10.12%;
+}
+
 .rect1 {
   box-sizing: border-box;
 
@@ -93,7 +113,7 @@ main {
   height: 600px;
   top: 15px;
   left: 15px;
-  border: 5px solid #ff743d;
+  border: 5px solid var(--orange);
   z-index: -1;
 }
 
@@ -134,4 +154,117 @@ main {
   font-weight: 700;
   font-size: 24px;
   color: var(--dark-purple);
+}
+
+/* *portfolio page*/
+
+.portfolio {
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio h3 {
+  font-family: "Inconsolata", monospace;
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--dark-grey);
+}
+.portfolio h3::before {
+  content: "/";
+  color: var(--orange);
+}
+
+.line_portfolio {
+  margin-bottom: 50px;
+}
+
+.rect_portfolio {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 15px;
+  left: 15px;
+  border-width: 0px 5px 5px 0px;
+  border-style: solid;
+  border-color: #ff743d;
+}
+
+/* *Tabs */
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.tabs__label {
+  padding: 10px 16px;
+  width: 50%;
+  cursor: pointer;
+  color: var(--dark-grey);
+  font-family: "montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+
+.tabs__radio {
+  display: none;
+}
+
+.tabs__content {
+  order: 1;
+  width: 100%;
+  display: none;
+  position: relative;
+}
+
+.tabs__radio:checked + .tabs__label {
+  font-weight: bold;
+  color: var(--light-grey);
+  border-bottom: 5px solid var(--orange);
+}
+
+.tabs__radio:checked + .tabs__label + .tabs__content {
+  display: initial;
+}
+
+/* *grid */
+
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid2 div p {
+  color: #ff743d;
+}
+
+.box {
+  width: 100%;
+  aspect-ratio: 1;
+  border: 2px var(--dark-purple) inset;
+  background-color: var(--dark-grey);
+  counter-increment: box 1;
+}
+
+.box p::before {
+  content: counter(box);
+}
+
+/* *About me page */
+
+.about {
+  width: 100%;
+  min-height: 100vh;
 }
