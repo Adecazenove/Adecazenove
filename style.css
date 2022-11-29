@@ -1,0 +1,137 @@
+:root {
+  --orange: #ff743d;
+  --dark-purple: #110b33;
+  --light-grey: #b9b6cc;
+  --dark-grey: #747280;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--dark-purple);
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.main-nav {
+  margin: 0 150px;
+  width: calc(100% - 300px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.main-nav nav a {
+  color: var(--light-grey);
+  font-family: "Inconsolata", monospace;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 40px;
+  transition: color 0.5s;
+}
+nav a::before {
+  content: "/";
+  color: var(--orange);
+}
+
+nav a:hover {
+  color: var(--orange);
+}
+
+.socials {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  left: -100px;
+}
+
+.socials a {
+  margin-left: 10px;
+}
+
+main {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 300px;
+}
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero figure {
+  position: relative;
+}
+
+.rect1 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 450px;
+  height: 600px;
+  top: 15px;
+  left: 15px;
+  border: 5px solid #ff743d;
+  z-index: -1;
+}
+
+.text h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--light-grey);
+}
+
+.text .line {
+  position: absolute;
+  left: 0;
+}
+
+.jobtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--dark-grey);
+  margin-top: 20px;
+}
+
+.hero .jobtitle .and::after {
+  content: " &";
+  color: var(--light-grey);
+}
+
+.contactBtn {
+  background-color: var(--orange);
+  max-width: fit-content;
+  padding: 10px;
+  margin-top: 60px;
+}
+
+.contactBtn a {
+  font-family: "Inconsolata", monospace;
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--dark-purple);
+}
