@@ -67,15 +67,17 @@ nav a:hover {
   margin-left: 10px;
 }
 
+/* *main */
+
 main {
   margin: 0 auto;
   display: block;
   width: 100%;
   min-height: 100vh;
-  padding: 0 300px;
+  padding: 0 calc(33vw / 2);
 }
 
-/* hero page*/
+/* *hero page*/
 
 .hero {
   min-height: 100vh;
@@ -124,9 +126,13 @@ main {
   color: var(--light-grey);
 }
 
-.text .line {
+.text {
+  position: relative;
+}
+
+.line {
   position: absolute;
-  left: 0;
+  right: 0;
 }
 
 .jobtitle {
@@ -142,18 +148,20 @@ main {
   color: var(--light-grey);
 }
 
-.contactBtn {
+.btn {
   background-color: var(--orange);
   max-width: fit-content;
   padding: 10px;
-  margin-top: 60px;
-}
-
-.contactBtn a {
   font-family: "Inconsolata", monospace;
   font-weight: 700;
   font-size: 24px;
   color: var(--dark-purple);
+  cursor: pointer;
+  border: 0;
+}
+
+.btnA {
+  margin-top: 60px;
 }
 
 /* *portfolio page*/
@@ -192,6 +200,7 @@ main {
   border-width: 0px 5px 5px 0px;
   border-style: solid;
   border-color: #ff743d;
+  z-index: -1;
 }
 
 /* *Tabs */
@@ -246,10 +255,6 @@ main {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.grid2 div p {
-  color: #ff743d;
-}
-
 .box {
   width: 100%;
   aspect-ratio: 1;
@@ -258,8 +263,12 @@ main {
   counter-increment: box 1;
 }
 
-.box p::before {
-  content: counter(box);
+.t1 p::before {
+  content: "Project " counter(box);
+}
+
+.t2 p::before {
+  content: "Item " counter(box);
 }
 
 /* *About me page */
@@ -267,4 +276,69 @@ main {
 .about {
   width: 100%;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about h3 {
+  font-family: "Inconsolata", monospace;
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--dark-grey);
+}
+
+.about h3::before {
+  content: "/";
+  color: var(--orange);
+}
+
+.about h4 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--light-grey);
+}
+
+.about p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--light-grey);
+}
+
+.about_head_wrap {
+  width: 100%;
+}
+
+.about_head {
+  position: relative;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.articles {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.articles article {
+  width: 100%;
+}
+
+.design {
+  display: flex;
+}
+
+.management {
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.articles div {
+  width: 600px;
 }
