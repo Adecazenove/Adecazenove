@@ -123,11 +123,9 @@
             <h3 class="and">Game Designer</h3>
             <h3>Project Management</h3>
           </div>
-          <a class="btnA" href="/#contact"
-            ><button class="contactBtn btn" type="button">
-              Contact Me!
-            </button></a
-          >
+          <a class="btnA" href="/#contact">
+            <button class="contactBtn btn" type="button">Contact Me!</button>
+          </a>
         </div>
         <figure>
           <div class="rect1"></div>
@@ -256,12 +254,76 @@
           </article>
         </div>
         <div class="button_wrap">
-          <a href="./Alexis de Cazenove CV English.pdf" target="_blank">
+          <a
+            class="resumeA"
+            href="./Alexis de Cazenove CV English.pdf"
+            target="_blank"
+          >
             <button class="resume btn" type="button">View Resume</button>
           </a>
         </div>
       </section>
-      <section id="contact" class="contact"></section>
+      <section id="contact" class="contact">
+        <div class="left_side"></div>
+        <div class="right_side">
+          <h3>Contact Me</h3>
+          <svg
+            class="line"
+            width="1000"
+            height="5"
+            viewBox="0 0 1000 5"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="0"
+              y1="2.5"
+              x2="1000"
+              y2="2.5"
+              stroke="#FF743D"
+              stroke-width="5"
+            />
+          </svg>
+          <p>
+            If you like what you see and you're interested in what i can do,
+            send me an email!
+          </p>
+          <form action="" class="form">
+            <div class="container top">
+              <input type="text" id="name" name="name" placeholder="Name" />
+              <input type="text" id="email" name="email" placeholder="Email" />
+            </div>
+            <div class="container bottom">
+              <input type="text" id="phone" name="phone" placeholder="Phone" />
+              <input
+                type="text"
+                id="organisation"
+                name="organisation"
+                placeholder="Organisation"
+              />
+            </div>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Message"
+            ></textarea>
+            <div class="send_wrapper">
+              <button class="send btn" type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </section>
     </main>
+    <footer>
+      <div class="footer">
+        <div class="footer_left">
+          <p>© Copyright 2022 | All Rights Reserved</p>
+        </div>
+        <div class="footer_right">
+          <p>Follow me:</p>
+          <figure class="img_container"></figure>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

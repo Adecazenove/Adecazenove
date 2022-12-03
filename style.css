@@ -26,10 +26,11 @@ header {
   flex-direction: row;
   align-items: center;
   z-index: 10;
+  background-color: var(--dark-purple);
 }
 .main-nav {
   margin: 0 150px;
-  width: calc(100% - 300px);
+  width: calc(100% - 300px); /* ?what is this? */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -150,7 +151,7 @@ main {
 
 .btn {
   background-color: var(--orange);
-  max-width: fit-content;
+  min-width: fit-content;
   padding: 10px;
   font-family: "Inconsolata", monospace;
   font-weight: 700;
@@ -160,7 +161,7 @@ main {
   border: 0;
 }
 
-.btnA {
+.contactBtn {
   margin-top: 60px;
 }
 
@@ -341,4 +342,114 @@ main {
 
 .articles div {
   width: 600px;
+}
+
+.button_wrap {
+  margin: 50px auto 0 auto;
+}
+
+/* *Contact */
+
+.contact {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact h3 {
+  font-family: "Inconsolata", monospace;
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--dark-grey);
+}
+
+.contact h3::before {
+  content: "/";
+  color: var(--orange);
+}
+
+.contact p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--light-grey);
+  margin-top: 20px;
+}
+
+.left_side {
+  width: 100%;
+}
+
+.right_side {
+  text-align: right;
+  position: relative;
+  width: 100%;
+}
+
+.right_side svg {
+  position: absolute;
+  left: 0;
+}
+
+.right_side form {
+  margin-top: 50px;
+}
+
+form input {
+  background: none;
+  border: none;
+  border-bottom: 2px solid var(--light-grey);
+  color: var(--light-grey);
+  font-family: "montserrat", sans-serif;
+  font-size: 16px;
+  flex-grow: 1;
+}
+
+form .container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+
+form .container input:nth-child(2) {
+  margin-left: 10px;
+}
+
+form textarea {
+  width: 100%;
+  background: none;
+  border: none;
+  border-bottom: 2px solid var(--light-grey);
+  color: var(--light-grey);
+  font-family: "montserrat", sans-serif;
+  font-size: 16px;
+  padding: 0;
+  resize: none;
+}
+
+.send_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+}
+
+/* *footer */
+
+footer {
+  height: 80px;
+  padding: 0 calc(33vw / 2);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--light-grey);
+  font-family: "montserrat", sans-serif;
+  font-size: 16px;
 }
