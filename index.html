@@ -129,7 +129,7 @@
         </div>
         <figure>
           <div class="rect1"></div>
-          <img src="./img/Alexis.jpg" alt="Alexis" width="450" height="600" />
+          <img src="./img/Alexis.jpg" alt="Alexis" />
         </figure>
       </section>
       <section id="portfolio" class="portfolio">
@@ -290,22 +290,42 @@
           </p>
           <form action="" class="form">
             <div class="container top">
-              <input type="text" id="name" name="name" placeholder="Name" />
-              <input type="text" id="email" name="email" placeholder="Email" />
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Name"
+                required
+              />
+              <input
+                type="text"
+                id="email"
+                name="email"
+                placeholder="Email"
+                required
+              />
             </div>
             <div class="container bottom">
-              <input type="text" id="phone" name="phone" placeholder="Phone" />
+              <input
+                type="text"
+                id="phone"
+                name="phone"
+                placeholder="Phone"
+                required
+              />
               <input
                 type="text"
                 id="organisation"
                 name="organisation"
                 placeholder="Organisation"
+                required
               />
             </div>
             <textarea
               id="message"
               name="message"
               placeholder="Message"
+              required
             ></textarea>
             <div class="send_wrapper">
               <button class="send btn" type="submit">Send</button>
@@ -325,5 +345,27 @@
         </div>
       </div>
     </footer>
+    <!--<script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function sendEmail() {
+        Email.send({
+          SecureToken: "",
+          To: "alexisdecazenove@gmail.com",
+          From: document.getElementById("email").value,
+          Subject: "New Contact Form Enquiry",
+          Body:
+            "Name: " +
+            document.getElementById("name").value +
+            " <br> Email: " +
+            document.getElementById("email").value +
+            " <br> Phone: " +
+            document.getElementById("phone").value +
+            " <br> Organisation: " +
+            document.getElementById("organisation").value +
+            "<br> Message: " +
+            document.getElementById("message").value,
+        }).then((message) => alert("Message Sent Succesfully"));
+      }
+    </script>-->
   </body>
 </html>
