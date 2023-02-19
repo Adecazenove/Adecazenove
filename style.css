@@ -88,13 +88,20 @@ main {
   justify-content: space-between;
 }
 
+/*@media screen and (max-width: 1440px) {
+  .hero {
+    flex-direction: column;
+    align-items: baseline;
+  }
+}*/
+
 .hero figure {
   position: relative;
 }
 
 figure img {
-  width: 450px;
-  height: 600px;
+  width: 100%;
+  max-height: 600px;
 }
 /* *text svg */
 .diag {
@@ -114,10 +121,9 @@ figure img {
 
 .rect1 {
   box-sizing: border-box;
-
   position: absolute;
-  width: 450px;
-  height: 600px;
+  width: 100%;
+  height: 100%;
   top: 15px;
   left: 15px;
   border: 5px solid var(--orange);
@@ -133,6 +139,8 @@ figure img {
 
 .text {
   position: relative;
+  min-width: max-content;
+  margin-right: 1em;
 }
 
 .line {
@@ -460,5 +468,25 @@ footer {
 
 /* *media queries */
 
-@media only screen and (max-width: 1420px) {
+@media screen and (max-width: 1080px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .text {
+    margin-right: 0;
+    margin-top: 10em;
+  }
+
+  .hero figure {
+    margin-top: 5em;
+  }
+}
+
+/* breakpoint for nav bar is 744px width */
+@media screen and (max-width: 744px) {
+  .text h1,
+  .jobtitle {
+    font-size: 24px;
+  }
 }
