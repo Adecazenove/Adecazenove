@@ -20,6 +20,7 @@ body {
 }
 
 header {
+  padding: 0 150px;
   position: fixed;
   width: 100%;
   display: flex;
@@ -29,8 +30,7 @@ header {
   background-color: var(--dark-purple);
 }
 .main-nav {
-  margin: 0 150px;
-  width: calc(100% - 300px); /* ?what is this? */
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -55,6 +55,7 @@ nav a::before {
 nav a:hover {
   color: var(--orange);
 }
+/*
 
 .socials {
   position: relative;
@@ -67,6 +68,7 @@ nav a:hover {
 .socials a {
   margin-left: 10px;
 }
+*/
 
 /* *main */
 
@@ -75,7 +77,7 @@ main {
   display: block;
   width: 100%;
   min-height: 100vh;
-  padding: 0 calc(33vw / 2);
+  padding: 0 calc(33% / 2);
 }
 
 /* *hero page*/
@@ -132,7 +134,7 @@ figure img {
 
 .text h1 {
   font-family: "Montserrat", sans-serif;
-  font-size: 48px;
+  font-size: clamp(32px, 3vw, 48px);
   font-weight: 700;
   color: var(--light-grey);
 }
@@ -146,11 +148,12 @@ figure img {
 .line {
   position: absolute;
   right: 0;
+  overflow: hidden;
 }
 
 .jobtitle {
   font-family: "Montserrat", sans-serif;
-  font-size: 36px;
+  font-size: clamp(24px, 2vw, 36px);
   font-weight: bold;
   color: var(--dark-grey);
   margin-top: 20px;
@@ -400,6 +403,7 @@ figure img {
   text-align: right;
   position: relative;
   width: 100%;
+  overflow: hidden;
 }
 
 .right_side svg {
@@ -454,7 +458,7 @@ form textarea {
 
 footer {
   height: 80px;
-  padding: 0 calc(33vw / 2);
+  padding: 0 calc(33% / 2);
 }
 
 .footer {
@@ -484,9 +488,12 @@ footer {
 }
 
 /* breakpoint for nav bar is 744px width */
-@media screen and (max-width: 744px) {
+/*@media screen and (max-width: 744px) {
   .text h1,
   .jobtitle {
     font-size: 24px;
   }
+}*/
+
+@media screen and (max-width: 480px) {
 }
