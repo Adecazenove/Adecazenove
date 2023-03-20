@@ -102,7 +102,7 @@ nav a:hover {
   height: 100vh;
   width: 140px;
   z-index: 2;
-  background-color: var(--orange);
+  background-color: var(--dark-purple);
 }
 
 .sidebar > nav {
@@ -117,18 +117,19 @@ nav a:hover {
 
 .hamburger:has(input:checked) + .sidebar {
   translate: 0;
+  box-shadow: 0 0 10000px rgb(0 0 0);
 }
-.hamburger:has(input:checked) + .sidebar > nav > a::before {
+/* .hamburger:has(input:checked) + .sidebar > nav > a::before {
   color: var(--dark-purple);
-}
+} */
 
-.hamburger:has(input:checked) + .sidebar > nav > a {
+/* .hamburger:has(input:checked) + .sidebar > nav > a {
   color: var(--dark-grey);
-}
+} */
 
-.hamburger:has(input:checked) {
+/* .hamburger:has(input:checked) {
   --orange: var(--dark-purple);
-}
+} */
 
 /*
 
