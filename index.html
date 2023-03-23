@@ -10,6 +10,8 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Montserrat:wght@400;700&display=swap");
     </style>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/script.js"></script>
   </head>
   <body>
     <header>
@@ -175,14 +177,14 @@
           <div class="tabs__content">
             <div class="rect_portfolio"></div>
             <div class="grid1">
-              <div class="box1 box t1"><p></p></div>
-              <div class="box2 box t1"><p></p></div>
-              <div class="box3 box t1"><p></p></div>
-              <div class="box4 box t1"><p></p></div>
-              <div class="box5 box t1"><p></p></div>
-              <div class="box6 box t1"><p></p></div>
-              <div class="box7 box t1"><p></p></div>
-              <div class="box8 box t1"><p></p></div>
+              <div class="project0 box t1"><p></p></div>
+              <div class="project1 box t1"><p></p></div>
+              <div class="project2 box t1"><p></p></div>
+              <div class="project3 box t1"><p></p></div>
+              <div class="project4 box t1"><p></p></div>
+              <div class="project5 box t1"><p></p></div>
+              <div class="project6 box t1"><p></p></div>
+              <div class="project7 box t1"><p></p></div>
             </div>
           </div>
           <input
@@ -195,17 +197,84 @@
           <div class="tabs__content">
             <div class="rect_portfolio"></div>
             <div class="grid2">
-              <div class="box1 box t2"><p></p></div>
-              <div class="box2 box t2"><p></p></div>
-              <div class="box3 box t2"><p></p></div>
-              <div class="box4 box t2"><p></p></div>
-              <div class="box5 box t2"><p></p></div>
-              <div class="box6 box t2"><p></p></div>
-              <div class="box7 box t2"><p></p></div>
-              <div class="box8 box t2"><p></p></div>
+              <div class="item0 box t2"><p></p></div>
+              <div class="item1 box t2"><p></p></div>
+              <div class="item2 box t2"><p></p></div>
+              <div class="item3 box t2"><p></p></div>
+              <div class="item4 box t2"><p></p></div>
+              <div class="item5 box t2"><p></p></div>
+              <div class="item6 box t2"><p></p></div>
+              <div class="item7 box t2"><p></p></div>
             </div>
           </div>
         </div>
+        <dialog class="popup">
+          <div class="popupContent">
+            <section class="popupHeader">
+              <h2></h2>
+              <div class="closeBtn">
+                <svg
+                  width="34"
+                  height="34"
+                  viewBox="0 0 34 34"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M30.917 34L17.0109 20.081L3.10482 34L0 30.8972L13.928 17L0 3.10283L3.10482 0L17.0109 13.919L30.917 0.0218514L34 3.10283L20.0939 17L34 30.8972L30.917 34Z"
+                    fill="#FF743D"
+                  />
+                </svg>
+              </div>
+            </section>
+            <section class="popupBody">
+              <section class="popupInfo">
+                <h3>
+                  Duration:
+                  <p class="duration"></p>
+                </h3>
+                <h3>
+                  Team size:
+                  <p class="team"></p>
+                </h3>
+                <h3>
+                  Tools used:
+                  <p class="tools"></p>
+                </h3>
+                <h3>
+                  Description:
+                  <p class="description"></p>
+                </h3>
+              </section>
+              <section class="imageSlider">
+                <div class="slides">
+                  <input type="radio" name="radio-btn" id="radio1" checked />
+                  <input type="radio" name="radio-btn" id="radio2" />
+                  <input type="radio" name="radio-btn" id="radio3" />
+                  <input type="radio" name="radio-btn" id="radio4" />
+                  <div class="slide first">
+                    <img class="img0" src="" alt="" />
+                  </div>
+                  <div class="slide">
+                    <img class="img1" src="" alt="" />
+                  </div>
+                  <div class="slide">
+                    <img class="img2" src="" alt="" />
+                  </div>
+                  <div class="slide">
+                    <img class="img3" src="" alt="" />
+                  </div>
+                </div>
+                <div class="navigation-manual">
+                  <label for="radio1" class="manual-btn"></label>
+                  <label for="radio2" class="manual-btn"></label>
+                  <label for="radio3" class="manual-btn"></label>
+                  <label for="radio4" class="manual-btn"></label>
+                </div>
+              </section>
+            </section>
+          </div>
+        </dialog>
       </section>
       <section id="about" class="about">
         <div class="about_head_wrap">
