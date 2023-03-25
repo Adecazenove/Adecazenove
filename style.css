@@ -95,8 +95,8 @@ nav a:hover {
 .sidebar {
   top: 0;
   right: 0;
-  padding-top: 80px;
-  padding-left: 10vw;
+  padding-top: 100px;
+  padding-left: 30px;
   position: absolute;
   translate: 100%;
   height: 100vh;
@@ -108,7 +108,7 @@ nav a:hover {
 .sidebar > nav {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 40px;
 }
 
 .sidebar > nav > a {
@@ -119,32 +119,19 @@ nav a:hover {
   translate: 0;
   box-shadow: 0 0 10000px rgb(0 0 0);
 }
-/* .hamburger:has(input:checked) + .sidebar > nav > a::before {
-  color: var(--dark-purple);
-} */
-
-/* .hamburger:has(input:checked) + .sidebar > nav > a {
-  color: var(--dark-grey);
-} */
-
-/* .hamburger:has(input:checked) {
-  --orange: var(--dark-purple);
-} */
-
-/*
 
 .socials {
-  position: relative;
-  display: flex;
-  flex-direction: row;
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   width: fit-content;
-  left: -100px;
+  right: 5%;
+  transform: translate(50%, 0);
 }
 
 .socials a {
   margin-left: 10px;
 }
-*/
 
 /* *main */
 
@@ -489,7 +476,7 @@ figure img {
 .navigation-manual {
   position: absolute;
   width: 75%;
-  margin-top: -40px;
+  margin-top: -5%;
   display: flex;
   justify-content: center;
 }
@@ -499,11 +486,11 @@ figure img {
   padding: 5px;
   border-radius: 50%;
   cursor: pointer;
-  transition: 1s;
+  /* transition: 1s; */
 }
 
 .manual-btn:not(:last-child) {
-  margin-right: 40px;
+  margin-right: 5vw;
 }
 .manual-btn:hover {
   background: var(--orange);
@@ -722,6 +709,28 @@ footer {
   .hero figure {
     margin-top: 5em;
   }
+
+  .popup {
+    /* position: absolute;
+    height: fit-content;
+    bottom: 100vh;
+    left: 0;
+    transform: translate(0, 0); */
+    overflow: scroll;
+  }
+
+  .popupBody {
+    flex-direction: column;
+  }
+
+  .popupInfo {
+    order: 2;
+    width: 100%;
+  }
+
+  .imageSlider {
+    order: 1;
+  }
 }
 
 /* breakpoint for nav bar is 744px width */
@@ -735,6 +744,10 @@ footer {
 /* *breakpoint for mobile layout 480px */
 
 @media screen and (max-width: 480px) {
+  .socials {
+    display: none;
+  }
+
   .main-nav > nav {
     display: none;
   }
