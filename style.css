@@ -731,6 +731,11 @@ footer {
   .imageSlider {
     order: 1;
   }
+
+  .slide img {
+    max-width: 100%;
+    height: 100%;
+  }
 }
 
 /* breakpoint for nav bar is 744px width */
