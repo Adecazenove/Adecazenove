@@ -2,83 +2,73 @@
   {
     "projects": [
       {
-        "name": "Project 1",
-        "description": "Lorem ipsum dolor sit amet consectetur. Purus nisi consectetur amet amet sed fermentum quis. Vestibulum id risus diam vivamus proin leo in. Faucibus egestas tincidunt scelerisque massa velit vitae in sagittis dolor. Non ut tincidunt at faucibus lacus morbi porttitor senectus. Imperdiet tellus sed vestibulum lectus sit risus ante consequat sit. Nisl mus imperdiet purus volutpat sed tempor feugiat gravida varius. Id fermentum sapien turpis mattis pretium etiam imperdiet ac faucibus. Tempus tristique dignissim a dictum tincidunt at aliquam diam. Nulla amet.",
+        "name": "Bullied",
+        "description": "This project was about creating a digital experience and/or game for a social campaign of choice, for which my team and I picked <a href='https://www.antibullyingcampaign.ie/'>antibullyingcampaign.ie</a>. Our target audience was 12-18 year old teenagers who have experienced bullying as victims, bystanders or bullies. We ended up making a game where the player is placed in the shoes of a bullying victim trying to get through a normal day at school. <br><br>As a designer and team leader, I was responsible for designing the levels and the mechanics, as well as planning and organization. My goal when designing the mechanics was to create a fun and engaging experience for the player while creating a sense of tension and unease to communicate what bullying can feel like. This was mainly achieved by visualizing stress through the reduction of the player's vision as they took more hits from the bullies. <br><br>For the first level, I did a fair bit of playtesting to get the sequence of events and their timing right. My goal was to create tension and pressure on the player but not so much as to make them uncomfortable as I still wanted the game to remain fun. I was quite pleased with the outcome as the playtests indicated that I reached this desired outcome. <br><br>For the second level, I was responsible for creating the patrol paths of the bully, as well as the level layout. While we didn't have the time to polish it as much as the first level, I think it was heading in the right direction. The goal of this level was to create the same experience for the player as the first but with a bit of a horror twist to it. With a little more time and testing, I'm confident I could have reached this goal.",
         "duration": "3 weeks",
         "team": "7",
-        "tools": "tools",
+        "tools": "Unity, Figma, Github",
+        "URL": "<a href='https://adecazenove.itch.io/bullied'>https://adecazenove.itch.io/bullied</a>",
+        "trailer": "https://www.youtube.com/embed/Amf2oJqFIcc",
         "images": [
-          "./img/project 1/1.jpg",
-          "./img/project 1/2.jpg",
-          "./img/project 1/3.jpg",
-          "./img/project 1/4.jpg"
+          "./img/Bullied/1.png",
+          "./img/Bullied/2.png",
+          "./img/Bullied/3.png"
         ]
       },
       {
-        "name": "Project 2",
-        "description": "Lorem ipsum dolor sit amet consectetur. Purus nisi consectetur amet amet sed fermentum quis. Vestibulum id risus diam vivamus proin leo in. Faucibus egestas tincidunt scelerisque massa velit vitae in sagittis dolor. Non ut tincidunt at faucibus lacus morbi porttitor senectus. Imperdiet tellus sed vestibulum lectus sit risus ante consequat sit. Nisl mus imperdiet purus volutpat sed tempor feugiat gravida varius. Id fermentum sapien turpis mattis pretium etiam imperdiet ac faucibus. Tempus tristique dignissim a dictum tincidunt at aliquam diam. Nulla amet.",
+        "name": "EarthShaper",
+        "description": "This project was about creating a digital product with the goal being to pitch it to potential investors á la Dragon’s Den. Out of 10 teams, only 4 would get the opportunity to present their project to the “Dragons” based on the quality of their project as well as their business justification.<br><br>During this project I worked on creating the game mechanics as well as the business justification. I decided early on in the project that the mechanics should be bases off of the theoretical processes of terraforming a planet. My main job was to adapt these steps to fit a mobile game and make the mechanics tie into each other to give them more meaning when the player interacted with them rather them making feel like individual minigames. While I feel like I was on the right path, I would have liked to have more time to refine and polish these ideas.<br><br>As for the business justification, it was my first time attempting something like this. While I was doubtful throughout the whole process on my work, our team ultimately was one of the teams chosen to pitch in front of the “Dragons”.",
         "duration": "3 weeks",
         "team": "7",
-        "tools": "tools",
+        "tools": "Unity, Figma, Excel",
+        "URL": "<a href='https://adecazenove.itch.io/earthshaper'>https://adecazenove.itch.io/earthshaper</a>",
+        "trailer": "https://www.youtube.com/embed/kWiNkxOqMRc",
         "images": [
-          "./img/project 2/1.jpg",
-          "./img/project 2/2.jpg",
-          "./img/project 2/3.jpg",
-          "./img/project 2/4.jpg"
+          "./img/EarthShaper/1.png",
+          "./img/EarthShaper/2.png",
+          "./img/EarthShaper/3.png"
         ]
       },
       {
-        "name": "Project 3",
-        "description": "Lorem ipsum dolor sit amet consectetur. Purus nisi consectetur amet amet sed fermentum quis. Vestibulum id risus diam vivamus proin leo in. Faucibus egestas tincidunt scelerisque massa velit vitae in sagittis dolor. Non ut tincidunt at faucibus lacus morbi porttitor senectus. Imperdiet tellus sed vestibulum lectus sit risus ante consequat sit. Nisl mus imperdiet purus volutpat sed tempor feugiat gravida varius. Id fermentum sapien turpis mattis pretium etiam imperdiet ac faucibus. Tempus tristique dignissim a dictum tincidunt at aliquam diam. Nulla amet.",
+        "name": "Barn Brawl",
+        "description": "In this project, we were tasked to create a game using more advanced forms of technology such as XR and networking. During this project, my main role was to develop and test the game mechanics. My goal when designing the mechanics for this strategy game was to create a system which allowed as many strategies and counter strategies with each of them having balanced strengths and weaknesses to prevent a scenario where a specific option or strategy is objectively better than the others. While the timeframe to undertake such a task was relatively short, I did my best to reach this goal by creating a playable prototype on Figma to start with adjusting and balancing the mechanics as soon as possible. Many mechanics underwent a lot of changes and many of those didn’t end up working. However, these changes were crucial in understanding the system I had designed.<br><br>As the team leader, this project also taught me a lot of important lessons on team organization and planning. Even though the outcome of the project was satisfactory, the process was too messy and disorganized for me and I felt like the outcome could have been far more polished if I had setup a better team organization through planning and communication.",
         "duration": "3 weeks",
         "team": "7",
-        "tools": "tools",
+        "tools": "Unity, Figma",
+        "URL": "<a href='https://adecazenove.itch.io/barn-brawl'>https://adecazenove.itch.io/barn-brawl</a>",
+        "trailer": "https://www.youtube.com/embed/SDgBTVtgvfA",
         "images": [
-          "./img/project 1/1.jpg",
-          "./img/project 1/2.jpg",
-          "./img/project 1/3.jpg",
-          "./img/project 1/4.jpg"
-        ]
-      },
-      {
-        "name": "Project 4",
-        "description": "Lorem ipsum dolor sit amet consectetur. Purus nisi consectetur amet amet sed fermentum quis. Vestibulum id risus diam vivamus proin leo in. Faucibus egestas tincidunt scelerisque massa velit vitae in sagittis dolor. Non ut tincidunt at faucibus lacus morbi porttitor senectus. Imperdiet tellus sed vestibulum lectus sit risus ante consequat sit. Nisl mus imperdiet purus volutpat sed tempor feugiat gravida varius. Id fermentum sapien turpis mattis pretium etiam imperdiet ac faucibus. Tempus tristique dignissim a dictum tincidunt at aliquam diam. Nulla amet.",
-        "duration": "3 weeks",
-        "team": "7",
-        "tools": "tools",
-        "images": [
-          "./img/project 1/1.jpg",
-          "./img/project 1/2.jpg",
-          "./img/project 1/3.jpg",
-          "./img/project 1/4.jpg"
+          "./img/BarnBrawl/1.png",
+          "./img/BarnBrawl/2.png",
+          "./img/BarnBrawl/3.png"
         ]
       }
     ],
     "personalPortfolio": [
       {
-        "name": "Item 1",
+        "name": "Blender Donut",
         "description": "Lorem ipsum dolor sit amet consectetur. Purus nisi consectetur amet amet sed fermentum quis. Vestibulum id risus diam vivamus proin leo in. Faucibus egestas tincidunt scelerisque massa velit vitae in sagittis dolor. Non ut tincidunt at faucibus lacus morbi porttitor senectus. Imperdiet tellus sed vestibulum lectus sit risus ante consequat sit. Nisl mus imperdiet purus volutpat sed tempor feugiat gravida varius. Id fermentum sapien turpis mattis pretium etiam imperdiet ac faucibus. Tempus tristique dignissim a dictum tincidunt at aliquam diam. Nulla amet.",
-        "duration": "3 weeks",
+        "duration": "2 weeks",
         "team": "1",
-        "tools": "tools",
+        "tools": "Blender",
+        "URL": "",
         "images": [
-          "./img/project 1/1.jpg",
-          "./img/project 1/2.jpg",
-          "./img/project 1/3.jpg",
-          "./img/project 1/4.jpg"
+          "./img/Bullied/1.jpg",
+          "./img/Bullied/2.jpg",
+          "./img/Bullied/3.jpg"
         ]
       },
       {
-        "name": "Item 2",
+        "name": "Portfolio Website",
         "description": "Lorem ipsum dolor sit amet consectetur. Purus nisi consectetur amet amet sed fermentum quis. Vestibulum id risus diam vivamus proin leo in. Faucibus egestas tincidunt scelerisque massa velit vitae in sagittis dolor. Non ut tincidunt at faucibus lacus morbi porttitor senectus. Imperdiet tellus sed vestibulum lectus sit risus ante consequat sit. Nisl mus imperdiet purus volutpat sed tempor feugiat gravida varius. Id fermentum sapien turpis mattis pretium etiam imperdiet ac faucibus. Tempus tristique dignissim a dictum tincidunt at aliquam diam. Nulla amet.",
         "duration": "3 weeks",
         "team": "1",
         "tools": "tools",
+        "URL": "",
         "images": [
-          "./img/project 1/1.jpg",
-          "./img/project 1/2.jpg",
-          "./img/project 1/3.jpg",
-          "./img/project 1/4.jpg"
+          "./img/Bullied/1.jpg",
+          "./img/Bullied/2.jpg",
+          "./img/Bullied/3.jpg"
         ]
       }
     ]

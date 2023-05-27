@@ -22,6 +22,8 @@ function popup(e) {
         var projectDuration = project.duration;
         var projectTeam = project.team;
         var projectTools = project.tools;
+        var projectURL = project.URL;
+        var projectTrailer = project.trailer;
         var projectDescription = project.description;
 
         if (clickedItemAttr.includes("project" + i)) {
@@ -36,6 +38,8 @@ function popup(e) {
           $(".popupInfo h3 p.duration").html(projectDuration);
           $(".popupInfo h3 p.team").html(projectTeam);
           $(".popupInfo h3 p.tools").html(projectTools);
+          $(".popupInfo h3 p.URL").html(projectURL);
+          $(".imageSlider div.first iframe").attr("src", projectTrailer);
           $(".popupInfo h3 p.description").html(projectDescription);
 
           $(".popup").prop("open", true);
@@ -51,6 +55,7 @@ function popup(e) {
         var itemDuration = item.duration;
         var itemTeam = item.team;
         var itemTools = item.tools;
+        var itemURL = item.URL;
         var itemDescription = item.description;
 
         if (clickedItemAttr.includes("item" + i)) {
@@ -67,6 +72,7 @@ function popup(e) {
           $(".popupInfo h3 p.duration").html(itemDuration);
           $(".popupInfo h3 p.team").html(itemTeam);
           $(".popupInfo h3 p.tools").html(itemTools);
+          $(".popupInfo h3 p.URL").html(itemURL);
           $(".popupInfo h3 p.description").html(itemDescription);
 
           $(".popup").prop("open", true);
