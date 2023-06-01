@@ -314,7 +314,7 @@
         <div class="articles">
           <article class="design">
             <div class="dInner">
-              <h4>Designing games</h4>
+              <h4>Designing Games</h4>
               <p>
                 As an aspiring game designer, my focus is on creating unique and
                 intuitive experiences for players. I believe that games should
@@ -386,7 +386,11 @@
             If you like what you see and you're interested in what i can do,
             send me an email!
           </p>
-          <form action="" class="form">
+          <form
+            action=""
+            onsubmit="sendEmail(); reset(); return false;"
+            class="form"
+          >
             <div class="container top">
               <input
                 type="text"
@@ -443,16 +447,19 @@
         </div>
       </div>
     </footer>
-    <!--<script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
       function sendEmail() {
         Email.send({
+          Host: "smtp.elasticemail.com",
+          Username: "contact@alexisdecazenove.com",
+          Password: "468B9754250BB0B21DC1F81A2BB9D6CF6A8C",
           SecureToken: "",
           To: "alexisdecazenove@gmail.com",
           From: document.getElementById("email").value,
           Subject: "New Contact Form Enquiry",
           Body:
-          "Name: " +
+            "Name: " +
             document.getElementById("name").value +
             " <br> Email: " +
             document.getElementById("email").value +
@@ -464,6 +471,6 @@
             document.getElementById("message").value,
         }).then((message) => alert("Message Sent Succesfully"));
       }
-    </script>-->
+    </script>
   </body>
 </html>
