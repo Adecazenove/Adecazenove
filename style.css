@@ -53,12 +53,12 @@ header {
   margin-left: 40px;
   transition: color 0.5s;
 }
-nav a::before {
+nav > a::before {
   content: "/";
   color: var(--orange);
 }
 
-nav a:hover {
+nav > a:hover {
   color: var(--orange);
 }
 
@@ -112,13 +112,19 @@ nav a:hover {
   gap: 40px;
 }
 
-.sidebar > nav > a {
+.sidebar > nav a {
   margin: 0;
 }
 
 .hamburger:has(input:checked) + .sidebar {
   translate: 0;
   box-shadow: 0 0 10000px rgb(0 0 0);
+}
+
+.sidebar > nav > div {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
 
 .socials {
@@ -344,6 +350,7 @@ figure img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  cursor: pointer;
 }
 
 .box p {
@@ -526,7 +533,6 @@ figure img {
   padding: 5px;
   border-radius: 50%;
   cursor: pointer;
-  /* transition: 1s; */
 }
 
 .manual-btn:not(:last-child) {
