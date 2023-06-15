@@ -372,13 +372,17 @@ figure img {
 .project2 {
   background-image: url("./img/BarnBrawl_card.png");
 }
+
+.item0 {
+  background-image: url("./img/Arctic Explorer Card.png");
+}
 /* .t1 p::before {
   content: "Project " counter(box);
 } */
 
-.t2 p::before {
+/* .t2 p::before {
   content: "Item " counter(box);
-}
+} */
 /* *popup style */
 
 .popup {

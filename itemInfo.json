@@ -46,16 +46,16 @@
     ],
     "personalPortfolio": [
       {
-        "name": "Blender Donut",
-        "description": "Lorem ipsum dolor sit amet consectetur. Purus nisi consectetur amet amet sed fermentum quis. Vestibulum id risus diam vivamus proin leo in. Faucibus egestas tincidunt scelerisque massa velit vitae in sagittis dolor. Non ut tincidunt at faucibus lacus morbi porttitor senectus. Imperdiet tellus sed vestibulum lectus sit risus ante consequat sit. Nisl mus imperdiet purus volutpat sed tempor feugiat gravida varius. Id fermentum sapien turpis mattis pretium etiam imperdiet ac faucibus. Tempus tristique dignissim a dictum tincidunt at aliquam diam. Nulla amet.",
+        "name": "Arctic Explorer Minigame",
+        "description": "In this minigame, the player finds themselves lost in an icy cavern without their equipment as they lost it during their fall down the crevasse. In this exploration 2D platformer, the player must look for their equipment spread out over the cave as well as clues as to what happened to the world. The cavern will feature difficult platforming and enemies to challenge the player along the way. <br><br>In this project my focus was entirely on the level and game mechanics design. All visual and audio assets are merely there to give a general idea of what the game would look like and are free assets from Flowlab. <br><br>Check out my game design document for more information on the process: <a href='./img/Arctic Explorer/Game Design Document Arctic Explorer.pdf' target='_blank'>Arctic Explorer game design document</a>",
         "duration": "2 weeks",
         "team": "1",
-        "tools": "Blender",
-        "URL": "",
+        "tools": "Flowlab, Figma",
+        "URL": "<a href='https://flowlab.io/game/play/2198897'>https://flowlab.io/game/play/2198897</a>",
         "images": [
-          "./img/Bullied/1.jpg",
-          "./img/Bullied/2.jpg",
-          "./img/Bullied/3.jpg"
+          "./img/Arctic Explorer/1.png",
+          "./img/Arctic Explorer/2.png",
+          "./img/Arctic Explorer/3.png"
         ]
       },
       {
