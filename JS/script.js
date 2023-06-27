@@ -56,6 +56,7 @@ function popup(e) {
         var itemTeam = item.team;
         var itemTools = item.tools;
         var itemURL = item.URL;
+        var itemTrailer = item.trailer;
         var itemDescription = item.description;
 
         if (clickedItemAttr.includes("item" + i)) {
@@ -73,6 +74,7 @@ function popup(e) {
           $(".popupInfo h3 p.team").html(itemTeam);
           $(".popupInfo h3 p.tools").html(itemTools);
           $(".popupInfo h3 p.URL").html(itemURL);
+          $(".imageSlider div.first iframe").attr("src", itemTrailer);
           $(".popupInfo h3 p.description").html(itemDescription);
 
           $(".popup").prop("open", true);
