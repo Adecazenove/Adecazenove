@@ -2,6 +2,45 @@
   {
     "projects": [
       {
+        "name": "Metro Awakening",
+        "description": "During my internship at Vertigo Studios Amsterdam, I worked as a quality assurance (QA) intern, focusing on testing VR game builds, identifying bugs, and reporting them through Jira. My responsibilities involved recording gameplay, clipping bug footage, and creating detailed, reproducible bug tickets. I also contributed to the beta delivery preparations by participatinng in the developement of tools like the “QA bingo sheet” to help track which features and settings had been tested.<br><br>I set three main learning goals for myself: mastering the QA workflow, getting involved in game design by providing feedback to the design team, and learning more about VR technology and its market. Working in QA allowed me to better understand the game development cycle, especially the technical challenges and testing requirements unique to different VR platforms. Testing VR games daily gave me valuable insight into VR's design possibilities, which I know will be helpful for future projects.<br><br>This experience taught me a lot about the importance of taking initiative, communicating clearly, and staying organized. I found that working in a hybrid setup was challenging for my motivation, so I adapted by increasing my office days to stay more engaged. Overall, the internship provided me with technical skills and a sense of adaptability that I know will serve me well as I continue pursuing a career in game design.",
+        "duration": "20 weeks",
+        "team": "5",
+        "tools": "Unreal Engine 4, Jira, Meta Quest, PSVR5",
+        "URL": "<a href='https://metroawakening.com'>https://metroawakening.com</a>",
+        "trailer": "https://www.youtube.com/embed/YH2LUgJQze0?si=OON7Kg21MwLdIZOr",
+        "images": [
+        ]
+      },
+      {
+        "name": "Dreamland Journey",
+        "description": "Dreamland Journey is a game about a young boy who wakes up in a dream in which his negative emotions have taken the form of monsters that need help with a problem. The game is split into 4 different levels, each with their own unique environment and mini game which the player has to complete to resolve the monsters emotion.<br><br>The goal of project Dreamland Journey was to create a game that could be played by 6-8 year old kids at a small exhibition for students to show off their games. The challenge however, was to include interpretations of 4 monsters drawn by kids from a primary school in the area into our game. Through the partnership and communication with culture and art center Concordia, we were able to organise playtest sessions with the children that drew the monsters for our game.<br><br>My contribution to this project came from multiple different areas ranging from production to design. One of my main two focuses during this project was brainstorming, designing, prototyping and testing all 4 levels of the game, which includes both the mini game design and the level layout. My goal was to tie the emotion of the level to the mini game and try to tie some form of real life lesson to it. For example, in the anger level, the player has to pay attention to the monster’s boundaries to reach them and calm them down. Due to the challenging target audience, I tried to prototype the levels quickly to test and adjust the flow of the mini games to a suitable level for a 6-8 years old.<br><br>My second main contribution was production, which involved team leading and planning. Making sure that the team of 8 was communicating was important in making sure that our ambitious project would be realised. To do this, I aimed to keep our daily meetings focused and targeted towards relevant issues and making sure that decisions came out of discussions. Having a plan was also a key part of the project as having 4 different mini games and environments required a strict schedule to adhere to. I did this by adjusting the plan as the project went along and making sure that everyone on the team was aware of changes and deadlines.<br><br>All in all, Dreamland Journey proved to be a challenging undertaking, but one that I believe shows what I’m capable of within a team. ",
+        "duration": "8 weeks",
+        "team": "8",
+        "tools": "Unity, Figma",
+        "URL": "<a href='https://adecazenove.itch.io/dreamland-journey'>https://adecazenove.itch.io/dreamland-journey</a>",
+        "trailer": "https://www.youtube.com/embed/m0EfjeyJeKg?si=9Ikhx_gu9svuhxOq",
+        "images": [
+          "./img/Dreamland Journey/1.png",
+          "./img/Dreamland Journey/2.png",
+          "./img/Dreamland Journey/3.png"
+        ]
+      },
+      {
+        "name": "Barn Brawl",
+        "description": "In this project, we were tasked to create a game using more advanced forms of technology such as XR and networking. During this project, my main role was to develop and test the game mechanics. My goal when designing the mechanics for this strategy game was to create a system which allowed as many strategies and counter strategies with each of them having balanced strengths and weaknesses to prevent a scenario where a specific option or strategy is objectively better than the others. While the timeframe to undertake such a task was relatively short, I did my best to reach this goal by creating a playable prototype on Figma to start with adjusting and balancing the mechanics as soon as possible. Many mechanics underwent a lot of changes and many of those didn’t end up working. However, these changes were crucial in understanding the system I had designed.<br><br>As the team leader, this project also taught me a lot of important lessons on team organization and planning. Even though the outcome of the project was satisfactory, the process was too messy and disorganized for me and I felt like the outcome could have been far more polished if I had setup a better team organization through planning and communication.",
+        "duration": "3 weeks",
+        "team": "7",
+        "tools": "Unity, Figma",
+        "URL": "<a href='https://adecazenove.itch.io/barn-brawl'>https://adecazenove.itch.io/barn-brawl</a>",
+        "trailer": "https://www.youtube.com/embed/SDgBTVtgvfA",
+        "images": [
+          "./img/BarnBrawl/1.png",
+          "./img/BarnBrawl/2.png",
+          "./img/BarnBrawl/3.png"
+        ]
+      },
+      {
         "name": "Bullied",
         "description": "This project was about creating a digital experience and/or game for a social campaign of choice, for which my team and I picked <a href='https://www.antibullyingcampaign.ie/'>antibullyingcampaign.ie</a>. Our target audience was 12-18 year old teenagers who have experienced bullying as victims, bystanders or bullies. We ended up making a game where the player is placed in the shoes of a bullying victim trying to get through a normal day at school. <br><br>As a designer and team leader, I was responsible for designing the levels and the mechanics, as well as planning and organization. My goal when designing the mechanics was to create a fun and engaging experience for the player while creating a sense of tension and unease to communicate what bullying can feel like. This was mainly achieved by visualizing stress through the reduction of the player's vision as they took more hits from the bullies. <br><br>For the first level, I did a fair bit of playtesting to get the sequence of events and their timing right. My goal was to create tension and pressure on the player but not so much as to make them uncomfortable as I still wanted the game to remain fun. I was quite pleased with the outcome as the playtests indicated that I reached this desired outcome. <br><br>For the second level, I was responsible for creating the patrol paths of the bully, as well as the level layout. While we didn't have the time to polish it as much as the first level, I think it was heading in the right direction. The goal of this level was to create the same experience for the player as the first but with a bit of a horror twist to it. With a little more time and testing, I'm confident I could have reached this goal.",
         "duration": "3 weeks",
@@ -27,34 +66,6 @@
           "./img/EarthShaper/1.png",
           "./img/EarthShaper/2.png",
           "./img/EarthShaper/3.png"
-        ]
-      },
-      {
-        "name": "Barn Brawl",
-        "description": "In this project, we were tasked to create a game using more advanced forms of technology such as XR and networking. During this project, my main role was to develop and test the game mechanics. My goal when designing the mechanics for this strategy game was to create a system which allowed as many strategies and counter strategies with each of them having balanced strengths and weaknesses to prevent a scenario where a specific option or strategy is objectively better than the others. While the timeframe to undertake such a task was relatively short, I did my best to reach this goal by creating a playable prototype on Figma to start with adjusting and balancing the mechanics as soon as possible. Many mechanics underwent a lot of changes and many of those didn’t end up working. However, these changes were crucial in understanding the system I had designed.<br><br>As the team leader, this project also taught me a lot of important lessons on team organization and planning. Even though the outcome of the project was satisfactory, the process was too messy and disorganized for me and I felt like the outcome could have been far more polished if I had setup a better team organization through planning and communication.",
-        "duration": "3 weeks",
-        "team": "7",
-        "tools": "Unity, Figma",
-        "URL": "<a href='https://adecazenove.itch.io/barn-brawl'>https://adecazenove.itch.io/barn-brawl</a>",
-        "trailer": "https://www.youtube.com/embed/SDgBTVtgvfA",
-        "images": [
-          "./img/BarnBrawl/1.png",
-          "./img/BarnBrawl/2.png",
-          "./img/BarnBrawl/3.png"
-        ]
-      },
-      {
-        "name": "Dreamland Journey",
-        "description": "Dreamland Journey is a game about a young boy who wakes up in a dream in which his negative emotions have taken the form of monsters that need help with a problem. The game is split into 4 different levels, each with their own unique environment and mini game which the player has to complete to resolve the monsters emotion.<br><br>The goal of project Dreamland Journey was to create a game that could be played by 6-8 year old kids at a small exhibition for students to show off their games. The challenge however, was to include interpretations of 4 monsters drawn by kids from a primary school in the area into our game. Through the partnership and communication with culture and art center Concordia, we were able to organise playtest sessions with the children that drew the monsters for our game.<br><br>My contribution to this project came from multiple different areas ranging from production to design. One of my main two focuses during this project was brainstorming, designing, prototyping and testing all 4 levels of the game, which includes both the mini game design and the level layout. My goal was to tie the emotion of the level to the mini game and try to tie some form of real life lesson to it. For example, in the anger level, the player has to pay attention to the monster’s boundaries to reach them and calm them down. Due to the challenging target audience, I tried to prototype the levels quickly to test and adjust the flow of the mini games to a suitable level for a 6-8 years old.<br><br>My second main contribution was production, which involved team leading and planning. Making sure that the team of 8 was communicating was important in making sure that our ambitious project would be realised. To do this, I aimed to keep our daily meetings focused and targeted towards relevant issues and making sure that decisions came out of discussions. Having a plan was also a key part of the project as having 4 different mini games and environments required a strict schedule to adhere to. I did this by adjusting the plan as the project went along and making sure that everyone on the team was aware of changes and deadlines.<br><br>All in all, Dreamland Journey proved to be a challenging undertaking, but one that I believe shows what I’m capable of within a team. ",
-        "duration": "8 weeks",
-        "team": "8",
-        "tools": "Unity, Figma",
-        "URL": "<a href='https://adecazenove.itch.io/dreamland-journey'>https://adecazenove.itch.io/dreamland-journey</a>",
-        "trailer": "https://www.youtube.com/embed/m0EfjeyJeKg?si=9Ikhx_gu9svuhxOq",
-        "images": [
-          "./img/Dreamland Journey/1.png",
-          "./img/Dreamland Journey/2.png",
-          "./img/Dreamland Journey/3.png"
         ]
       }
     ],

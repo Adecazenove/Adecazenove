@@ -362,11 +362,11 @@ figure img {
 }
 
 .project0 {
-  background-image: url("./img/Bullied_card_image.png");
+  background-image: url("./img/MetroAwakeningCard.png");
 }
 
 .project1 {
-  background-image: url("./img/EarthShaper_card_img.png");
+  background-image: url("./img/DreamlandJourney_card.jpg");
 }
 
 .project2 {
@@ -374,7 +374,11 @@ figure img {
 }
 
 .project3 {
-  background-image: url("./img/DreamlandJourney_card.jpg");
+  background-image: url("./img/Bullied_card_image.png");
+}
+
+.project4 {
+  background-image: url("./img/EarthShaper_card_img.png");
 }
 
 .item0 {
