@@ -344,8 +344,8 @@ figure img {
 .box {
   width: 100%;
   aspect-ratio: 1;
-  border: 2px var(--dark-purple) inset;
-  background-color: var(--dark-grey);
+  /*border: 2px var(--dark-purple) inset;*/
+  /*background-color: var(--dark-grey);*/
   counter-increment: box 1;
   background-size: cover;
   background-repeat: no-repeat;
@@ -362,22 +362,26 @@ figure img {
 }
 
 .project0 {
-  background-image: url("./img/MetroAwakeningCard.png");
+  background-image: url("./img/ThalesNavalWarfare_Card.jpg");
 }
 
 .project1 {
-  background-image: url("./img/DreamlandJourney_card.jpg");
+  background-image: url("./img/MetroAwakeningCard.png");
 }
 
 .project2 {
-  background-image: url("./img/BarnBrawl_card.png");
+  background-image: url("./img/DreamlandJourney_card.jpg");
 }
 
 .project3 {
-  background-image: url("./img/Bullied_card_image.png");
+  background-image: url("./img/BarnBrawl_card.png");
 }
 
 .project4 {
+  background-image: url("./img/Bullied_card_image.png");
+}
+
+.project5 {
   background-image: url("./img/EarthShaper_card_img.png");
 }
 

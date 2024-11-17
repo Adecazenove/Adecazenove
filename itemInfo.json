@@ -2,14 +2,31 @@
   {
     "projects": [
       {
+        "name": "Thales Naval Warfare",
+        "description": "During my internship at Thales, I worked on the Naval Warfare Game, a tactical game designed to showcase Thales' radar systems and naval defense capabilities. The game serves as an interactive tool to engage new employees and students at career fairs. My primary role as a game designer involved addressing gameplay issues and enhancing core mechanics to make the experience more engaging, strategic, and reflective of real-world naval tactics. I also took on project management responsibilities to ensure the team stayed organized and aligned throughout the development process.<br><br>One of my significant contributions was redesigning the radar and identification systems to encourage strategic decision-making, emphasizing the game's tactical elements. I also improved the game's user interface, making it clearer and more intuitive, which positively impacted the player experience during playtesting. Additionally, I designed and prototyped a new interactive tutorial to replace the outdated video-based one. This tutorial incorporated narrative elements and a step-by-step introduction to the game’s mechanics, ensuring players could learn in a more engaging and cohesive way. To refine these features, I organized playtests and created questionnaires, gathering valuable feedback from Thales employees and students. This data informed design decisions and helped improve the game's overall quality.<br><br>Another critical aspect of my work was creating and maintaining updated game design documentation. These documents served as a foundation for my team and future development groups, ensuring the project had clear goals and a consistent vision. Beyond my technical contributions, I also facilitated communication within the team by organizing regular meetings, establishing workflows, and fostering collaboration.<br><br>This internship was a valuable learning experience. It taught me the importance of structured workflows, thorough documentation, and iterative design processes. I became proficient in using tools like Figma for prototyping and Unity’s Timeline and Cinemachine for cinematic sequences. Additionally, I developed a deeper understanding of applying design thinking to solve challenges methodically. These skills, along with my focus on task prioritization and user feedback, have significantly strengthened my capabilities as a game designer, preparing me for future challenges in the industry.",
+        "duration": "20 weeks",
+        "team": "3",
+        "tools": "Unity, Jira, Figma",
+        "URL": "<a href='./Thales Internship Report.pdf' target='_blank'>Read my internship report</a>",
+        "trailer": "",
+        "images": [
+          "./img/Thales Naval Warfare/Figma tutorial prototype.jpg",
+          "",
+          ""
+        ]
+      },
+      {
         "name": "Metro Awakening",
         "description": "During my internship at Vertigo Studios Amsterdam, I worked as a quality assurance (QA) intern, focusing on testing VR game builds, identifying bugs, and reporting them through Jira. My responsibilities involved recording gameplay, clipping bug footage, and creating detailed, reproducible bug tickets. I also contributed to the beta delivery preparations by participatinng in the developement of tools like the “QA bingo sheet” to help track which features and settings had been tested.<br><br>I set three main learning goals for myself: mastering the QA workflow, getting involved in game design by providing feedback to the design team, and learning more about VR technology and its market. Working in QA allowed me to better understand the game development cycle, especially the technical challenges and testing requirements unique to different VR platforms. Testing VR games daily gave me valuable insight into VR's design possibilities, which I know will be helpful for future projects.<br><br>This experience taught me a lot about the importance of taking initiative, communicating clearly, and staying organized. I found that working in a hybrid setup was challenging for my motivation, so I adapted by increasing my office days to stay more engaged. Overall, the internship provided me with technical skills and a sense of adaptability that I know will serve me well as I continue pursuing a career in game design.",
         "duration": "20 weeks",
         "team": "5",
         "tools": "Unreal Engine 4, Jira, Meta Quest, PSVR5",
-        "URL": "<a href='https://metroawakening.com'>https://metroawakening.com</a>",
+        "URL": "<a href='./Vertigo Games Internship Report.pdf' target='_blank'>Read my internship report</a>",
         "trailer": "https://www.youtube.com/embed/YH2LUgJQze0?si=OON7Kg21MwLdIZOr",
         "images": [
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -82,19 +99,6 @@
           "./img/Arctic Explorer/1.png",
           "./img/Arctic Explorer/2.png",
           "./img/Arctic Explorer/3.png"
-        ]
-      },
-      {
-        "name": "Portfolio Website",
-        "description": "Lorem ipsum dolor sit amet consectetur. Purus nisi consectetur amet amet sed fermentum quis. Vestibulum id risus diam vivamus proin leo in. Faucibus egestas tincidunt scelerisque massa velit vitae in sagittis dolor. Non ut tincidunt at faucibus lacus morbi porttitor senectus. Imperdiet tellus sed vestibulum lectus sit risus ante consequat sit. Nisl mus imperdiet purus volutpat sed tempor feugiat gravida varius. Id fermentum sapien turpis mattis pretium etiam imperdiet ac faucibus. Tempus tristique dignissim a dictum tincidunt at aliquam diam. Nulla amet.",
-        "duration": "3 weeks",
-        "team": "1",
-        "tools": "tools",
-        "URL": "",
-        "images": [
-          "./img/Bullied/1.jpg",
-          "./img/Bullied/2.jpg",
-          "./img/Bullied/3.jpg"
         ]
       }
     ]

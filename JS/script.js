@@ -39,7 +39,16 @@ function popup(e) {
           $(".popupInfo h3 p.team").html(projectTeam);
           $(".popupInfo h3 p.tools").html(projectTools);
           $(".popupInfo h3 p.URL").html(projectURL);
-          $(".imageSlider div.first iframe").attr("src", projectTrailer);
+          if(projectTrailer != ""){
+            $("#radio1").prop("checked", true);
+            $("label[for='radio1']").show();
+            $(".imageSlider div.first iframe").attr("src", projectTrailer);
+          }
+          else {
+            $("#radio2").prop("checked", true);
+            $("label[for='radio1']").hide();
+            $(".imageSlider div.first iframe").attr("src", projectTrailer);
+          }
           $(".popupInfo h3 p.description").html(projectDescription);
 
           $(".popup").prop("open", true);
@@ -74,7 +83,16 @@ function popup(e) {
           $(".popupInfo h3 p.team").html(itemTeam);
           $(".popupInfo h3 p.tools").html(itemTools);
           $(".popupInfo h3 p.URL").html(itemURL);
-          $(".imageSlider div.first iframe").attr("src", itemTrailer);
+          if(itemTrailer != ""){
+            $("#radio1").prop("checked", true);
+            $("label[for='radio1']").show();
+            $(".imageSlider div.first iframe").attr("src", itemTrailer);
+          }
+          else {
+            $("#radio2").prop("checked", true);
+            $("label[for='radio1']").hide();
+            $(".imageSlider div.first iframe").attr("src", itemTrailer);
+          }
           $(".popupInfo h3 p.description").html(itemDescription);
 
           $(".popup").prop("open", true);
